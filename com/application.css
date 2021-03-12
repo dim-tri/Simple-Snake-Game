@@ -1,0 +1,26 @@
+.button {
+	-fx-background-color: #49b336;
+	-fx-text-fill: white;
+}
+.button:pressed {
+	-fx-background-color: #337a26;
+}
+.button:selected{
+	-fx-background-color: #337a26;
+}
+
+.main-menu-button {
+	-fx-background-image: url('/sprites/green_button.png');
+	-fx-background-color:transparent;
+    -fx-background-repeat: no-repeat;
+
+}
+.main-menu-button:selected {
+	-fx-background-image: url('/sprites/green_button_pressed.png');
+	-fx-background-color:#337a26;
+	
+}
+
+.menu-pane{
+	-fx-background-image: url('/sprites/black.png');
+}
